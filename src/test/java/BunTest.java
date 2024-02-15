@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 public class BunTest {
 
     @Test
-    public void testGetName() {
+    public void getNameTest() {
         String expectedName = "bun";
         float price = 2.0f;
 
@@ -21,7 +21,7 @@ public class BunTest {
     }
 
     @Test
-    public void testGetPrice() {
+    public void getPriceTest() {
         float minPrice = 1.0f;
         float maxPrice = 10.0f;
 

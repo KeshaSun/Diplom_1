@@ -6,12 +6,12 @@ import static praktikum.IngredientType.SAUCE;
 
 public class IngredientTypeTest {
     @Test
-    public void checkIngredientTypeSauce(){
+    public void checkIngredientTypeSauceTest(){
         assertEquals(IngredientType.valueOf("SAUCE"), SAUCE);
     }
 
     @Test
-    public void checkIngredientTypeSauceFilling(){
+    public void checkIngredientTypeSauceFillingTest(){
         assertEquals(IngredientType.valueOf("FILLING"), FILLING);
     }
 

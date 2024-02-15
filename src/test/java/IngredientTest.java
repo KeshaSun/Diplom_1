@@ -30,7 +30,7 @@ public class IngredientTest {
     }
 
     @Test
-    public void setInfoForIngredient(){
+    public void setInfoForIngredientTest(){
         Ingredient ingredient = new Ingredient(type, name, price);
         assertEquals("Неверный тип ингредиента", type, ingredient.getType());
         assertEquals("Неверное наименование ингредиента", name, ingredient.getName());
